@@ -1,0 +1,31 @@
+.entry-header {
+    padding-top: 20px;
+    background-color: #fff;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.entry-header .inner {
+    font-family: Arial, sans-serif;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section {
+    min-width: 960px;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#slide-1 .bcg {background-image:url('../img/winter.jpg')}
